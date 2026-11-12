@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es-CL" data-theme="grafito">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Distribuidora CEA. Fabricamos detergentes y productos de limpieza para el hogar y el auto. Compra al detalle o por mayor.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#171c18">
+  <title>Distribuidora CEA · Fabricación propia</title>
+  <link rel="icon" href="assets/logo.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="shop-base.css">
+  <link rel="stylesheet" href="sections.css">
+  <link rel="stylesheet" href="commerce.css">
+  <link rel="stylesheet" href="bocetos.css">
+  <script src="catalog.js" defer></script>
+  <script src="storefront.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#store-main">Saltar al contenido</a>
+  <div class="store cea-site" data-view="home" data-theme="grafito">
+    <header class="site-header">
+      <div class="shell site-nav">
+        <a href="#inicio" class="site-brand" data-action="home" aria-label="Distribuidora CEA, inicio">
+          <img src="assets/logo.webp" alt="" width="42" height="42">
+          <span>Distribuidora <strong>CEA</strong></span>
+        </a>
+        <nav aria-label="Navegación principal">
+          <a href="#inicio" data-action="home" data-nav="inicio" aria-current="page">Inicio</a>
+          <a href="#empresa" data-action="section" data-section="empresa" data-nav="empresa">Empresa</a>
+          <a href="#tienda" data-action="catalog" data-line="todos" data-nav="tienda">Tienda</a>
+          <a href="#contacto" data-action="section" data-section="contacto" data-nav="contacto">Contacto</a>
+        </nav>
+        <a href="#carrito" class="site-cart" data-action="cart" aria-haspopup="dialog" aria-controls="cart-drawer" aria-expanded="false" hidden>Carrito <span data-count>0</span></a>
+      </div>
+    </header>
+    <main id="store-main" tabindex="-1">
+      <section class="home-hero" aria-labelledby="hero-title">
+        <div class="shell hero-shell">
+          <div class="hero-copy">
+            <p class="hero-kicker"><span></span>Fabricación propia</p>
+            <h1 id="hero-title" tabindex="-1">Fabricamos nuestros <em>detergentes</em></h1>
+            <p class="hero-description">Detergentes orgánicos y productos de limpieza para el hogar y el auto. <span>Venta al detalle y por mayor.</span></p>
+            <div class="hero-actions">
+              <a class="primary" href="#tienda" data-action="catalog" data-line="todos">Comprar en la tienda <span aria-hidden="true">→</span></a>
+              <a class="hero-story" href="#empresa" data-action="section" data-section="empresa">Conoce nuestra empresa <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img class="hero-image" src="assets/cea-matic-estudio.webp" alt="Bidones de detergente Matic CEA" fetchpriority="high" width="1536" height="1024">
+            <a class="hero-product" href="#producto/detergente-liquido-matic" data-action="product" data-id="detergente">
+              <span><strong>Detergente Matic CEA</strong><small>Bidón de 5 L</small></span><span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="home-directory">
+        <div class="shell">
+          <a class="home-directory-shop" href="#tienda" data-action="catalog" data-line="todos"><span>Explorar la tienda</span><span aria-hidden="true">↗</span></a>
+          <a href="#empresa" data-action="section" data-section="empresa"><span>La empresa</span><span aria-hidden="true">↓</span></a>
+          <a href="#lineas" data-action="section" data-section="lineas"><span>Hogar y automotriz</span><span aria-hidden="true">↓</span></a>
+          <a href="#granel" data-action="section" data-section="granel"><span>Detergente a granel</span><span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <section class="cea-landing-section cea-story" id="empresa" aria-labelledby="cea-story-title">
+  <div class="shell cea-story-layout">
+    <div class="cea-story-copy">
+      <p class="cea-section-label">Desde 2018 · Talca</p>
+      <h2 id="cea-story-title">Una empresa <em>familiar</em></h2>
+      <p>Nacimos con la idea de fabricar productos de limpieza y abrir una oportunidad de negocio para emprendedores independientes.</p>
+      <a class="primary cea-story-shop" href="#tienda" data-action="catalog" data-line="todos">Ir a la tienda <span aria-hidden="true">↗</span></a>
+    </div>
+    <figure class="cea-story-figure">
+      <div class="cea-story-image">
+        <img src="assets/exhibicion-cea.webp" alt="Botellas de productos CEA en un estante" loading="lazy">
+      </div>
+      <figcaption>Productos CEA en exhibición</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="cea-landing-section cea-lines" id="lineas" aria-labelledby="cea-lines-title">
+  <div class="shell cea-lines-layout">
+    <div class="cea-lines-heading">
+      <h2 id="cea-lines-title">Para el hogar y <em>el auto</em></h2>
+    </div>
+    <div class="cea-lines-spread">
+      <article class="cea-line cea-line-hogar">
+        <a class="cea-line-link" href="#tienda" data-action="catalog" data-line="hogar">
+          <div class="cea-line-image">
+            <img src="assets/detergente.webp" alt="" loading="lazy">
+          </div>
+          <div class="cea-line-copy">
+            <h3>Hogar</h3>
+            <p>Detergentes orgánicos, lavalozas y productos para pisos.</p>
+            <span class="cea-line-action">Comprar para el hogar <span aria-hidden="true">↗</span></span>
+          </div>
+        </a>
+      </article>
+      <article class="cea-line cea-line-automotriz">
+        <a class="cea-line-link" href="#tienda" data-action="catalog" data-line="automotriz">
+          <div class="cea-line-image">
+            <img src="assets/shampoo.webp" alt="" loading="lazy">
+          </div>
+          <div class="cea-line-copy">
+            <h3>Automotriz</h3>
+            <p>Shampoo, limpiadores de llantas y productos para el tapiz.</p>
+            <span class="cea-line-action">Comprar para el auto <span aria-hidden="true">↗</span></span>
+          </div>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cea-landing-section cea-bulk" id="granel" aria-labelledby="cea-bulk-title">
+  <div class="shell cea-bulk-layout">
+    <div class="cea-bulk-copy">
+      <h2 id="cea-bulk-title">Detergente <span>a granel</span></h2>
+      <p>Consulta qué formatos tenemos disponibles y las condiciones para comprar al por mayor.</p>
+    </div>
+    <div class="cea-bulk-links">
+      <a href="mailto:contacto@distribuidoracea.cl?subject=Consulta%20por%20detergente%20a%20granel">
+        <span><strong>Consultar por correo</strong><span>contacto@distribuidoracea.cl</span></span>
+        <span aria-hidden="true">↗</span>
+      </a>
+      <a href="https://www.instagram.com/distribuidoracea.cl/" target="_blank" rel="noopener">
+        <span><strong>Ver Instagram</strong><span>@distribuidoracea.cl</span></span>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+      <section class="landing-shop-cta" aria-labelledby="landing-shop-title">
+        <div class="shell">
+          <h2 id="landing-shop-title">Compra directo a CEA.</h2>
+          <a class="primary" href="#tienda" data-action="catalog" data-line="todos">Ir a la tienda <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" id="contacto">
+      <div class="shell">
+        <div class="footer-main">
+          <div class="footer-identity">
+            <a class="site-brand" href="#inicio" data-action="home">
+              <img src="assets/logo.webp" alt="" width="48" height="48">
+              <span>Distribuidora <strong>CEA</strong></span>
+            </a>
+            <p>Fabricamos detergentes y productos de limpieza para el hogar y el auto.</p>
+          </div>
+          <nav aria-label="Enlaces del pie de página">
+            <h2>Explora CEA</h2>
+            <a href="#empresa" data-action="section" data-section="empresa">Nuestra empresa</a>
+            <a href="#tienda" data-action="catalog" data-line="todos">Tienda</a>
+            <a href="#granel" data-action="section" data-section="granel">Venta a granel</a>
+          </nav>
+          <div class="footer-contact">
+            <h2 data-section-heading>Contacto</h2>
+            <a href="mailto:contacto@distribuidoracea.cl">contacto@distribuidoracea.cl</a>
+            <a href="https://www.instagram.com/distribuidoracea.cl/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+            <p>Talca, Región del Maule</p>
+          </div>
+          <div class="footer-payment">
+            <h2>Pago en línea</h2>
+            <strong class="footer-webpay">Webpay <span>Plus</span></strong>
+            <p>Transbank</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <small>© 2026 Distribuidora CEA</small>
+          <a class="servimat-credit" href="https://www.instagram.com/servimat._/" target="_blank" rel="noopener"><span>Diseñado por</span><img src="assets/servimat.webp" alt="" width="22" height="22"><strong>SERVIMAT™</strong><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </footer>
+    <dialog id="cart-drawer" class="cart-drawer" aria-labelledby="cart-drawer-title">
+      <div class="cart-drawer-head">
+        <h2 id="cart-drawer-title">Tu carrito</h2>
+        <button type="button" class="cart-drawer-close" data-action="close-cart" aria-label="Ocultar carrito">×</button>
+      </div>
+      <div class="cart-drawer-body" data-cart-body></div>
+      <div class="cart-drawer-summary" data-cart-summary></div>
+    </dialog>
+    <dialog class="quick-dialog" aria-labelledby="quick-buy-title"></dialog>
+    <div class="cart-toast" hidden>
+      <span data-toast-label></span>
+      <a href="#carrito" data-action="cart">Ver carrito <span aria-hidden="true">↗</span></a>
+      <button type="button" data-action="dismiss-toast" aria-label="Cerrar aviso">×</button>
+    </div>
+    <div class="sr-only" role="status" data-live></div>
+  </div>
+</body>
+</html>
